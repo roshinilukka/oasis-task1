@@ -1,0 +1,41 @@
+<!-- browse-books.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Books - Online Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Browse Books</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <!-- Content of the Browse Books page goes here -->
+
+        <!-- Search form -->
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search for books">
+            <button onclick="searchBooks()">Search</button>
+        </div>
+        
+        <!-- Container for displaying search results -->
+        <div id="search-results"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Online Bookstore. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
